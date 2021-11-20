@@ -19,7 +19,7 @@ time.sleep(5)
 driver.execute_script("window.open('http://fb.com', 'new_window')")
 driver.switch_to_window(driver.window_handles[1])
 
-print driver.title
+print('hello nov 2021')
 email=driver.find_element_by_id("email")
 
 email.send_keys('dhneshwod@gmail.com')
